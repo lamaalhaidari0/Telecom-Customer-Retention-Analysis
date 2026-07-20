@@ -1,27 +1,19 @@
-Telecom Customer Retention & Revenue Analytics
-Project Overview
-An end-to-end data analytics project using Power BI to analyze customer retention and total revenue distribution.
+# Telecom Churn Analysis
 
-Executive Dashboard Metrics
-Total Historical Revenue: $15.05M (Total lifetime value of all customers).
+## Project Overview
+Analysis of customer churn in telecom industry using Python, SQL, and Power BI.
 
-Average Monthly Bill: $76.84 per customer.
+## Key Findings:
+- **Fiber Optic**: 40.7% churn rate (highest)
+- **Month-to-Month contracts**: 45.8% churn rate
+- **Early tenure (0-12 months)**: 47.4% churn rate
 
-Revenue Share by Churn Status:
+## Recommendations:
+1. Improve Fiber Optic service quality
+2. Encourage multi-year contracts
+3. Better onboarding process
 
-Retained Customers (No): $12.21M (81.11%)
-
-Churned Customers (Yes): $2.84M (18.89%)
-
-Key Dashboard Insights
-1. Financial Impact
-Out of $15.05M total revenue, $2.84M came from customers who have since left the company.
-
-2. Customer Lifecycle (Tenure)
-Retained customers show a massive jump in total revenue around the 70-72 month mark, proving that long-term loyalty drives the company's profitability. Churned customers leave early before reaching this growth.
-
-3. Product Drivers
-Fiber Optic is the highest revenue-generating service, but it also contains the highest volume of churned customer revenue compared to DSL and Cable.
-
-4. Contract Trends
-Two-Year contracts hold the largest and most stable revenue ($6M+) with almost zero churn, while Month-to-Month contracts carry the highest risk and churn volume.
+## Files:
+- `analysis.ipynb` - Python analysis with SQL queries
+- `Telecom_Churn_Executive_Dashboard.pbix` - Power BI dashboard
+- `Data_Driven_Customer_Retention_Strategy.pptx` - Presentation
